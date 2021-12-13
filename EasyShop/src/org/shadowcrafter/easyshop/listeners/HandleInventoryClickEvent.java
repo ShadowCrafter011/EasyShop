@@ -85,7 +85,9 @@ public class HandleInventoryClickEvent implements Listener{
 			
 			int num = -1;
 			String number = e.getCurrentItem().getItemMeta().getDisplayName().replace("§2Buy option ", "");
-			num = Integer.parseInt(number) - 1;
+			try {
+				num = Integer.parseInt(number) - 1;
+			}catch (Exception x) {return;};
 			
 			if (num == -1) {
 				p.sendMessage(Err.SOMETHING_WENT_WRONG);
