@@ -1,0 +1,5 @@
+package org.shadowcrafter.easyshop.util;
+
+public enum EditType {
+	EDIT_INVENTORY, SHOP_INVENTORY, BUY, SELL, PRICE_AMOUNT_1, PRICE_AMOUNT_2, PRICE_AMOUNT_3, PRICE_AMOUNT_4, SHOP_MAIN, BUY_INVENTORY
+}

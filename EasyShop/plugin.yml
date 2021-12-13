@@ -1,0 +1,16 @@
+name: easyshop
+version: 0.1.0
+main: org.shadowcrafter.easyshop.EasyShop
+api-version: 1.13
+author: shadowcrafter
+
+commands:
+   shop:
+      description: Create and manage your shops
+      usage: <command>
+   giveknowledgebook:
+      description: Get the knowledgebook for this plugin
+      usage: <command>
+   setprice:
+      description: Set price and amount of one or your shops sell options
+      usage: <command> <amount> <price>
